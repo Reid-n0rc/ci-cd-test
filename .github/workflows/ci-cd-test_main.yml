@@ -12,18 +12,18 @@ on:
       - './.github/workflows/amamw_main.yml'
   push:
     paths:
-      - './ci-cd-test/*.kicad_sch'
-      - './ci-cd-test/*.kicad_pcb'
-      - './ci-cd-test/*.kibot.yaml'
-      - './ci-cd-test/Makefile'
-      - './.github/workflows/amamw_main.yml'
+      - 'ci-cd-test/*.kicad_sch'
+      - 'ci-cd-test/*.kicad_pcb'
+      - 'ci-cd-test/*.kibot.yaml'
+      - 'ci-cd-test/Makefile'
+      - '.github/workflows/amamw_main.yml'
   pull_request:
     paths:
-      - './ci-cd-test/*.kicad_sch'
-      - './ci-cd-test/*.kicad_pcb'
-      - './ci-cd-test/*.kibot.yaml'
-      - './ci-cd-test/Makefile'
-      - './.github/workflows/amamw_main.yml'
+      - 'ci-cd-test/*.kicad_sch'
+      - 'ci-cd-test/*.kicad_pcb'
+      - 'ci-cd-test/*.kibot.yaml'
+      - 'ci-cd-test/Makefile'
+      - '.github/workflows/amamw_main.yml'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
